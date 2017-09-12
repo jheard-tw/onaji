@@ -67,3 +67,27 @@ Or to compare two branches:
 $ onajidiff --branches <branch_name_a> <branch_name_b>
 ```
 
+Example:
+
+```bash
+$ onajidiff 9ea881441704a068d650fcd9dd052a606838ad8a 9ea881441704a068d650fcd9dd052a606838ad8b
+
+Reading files.
+Reading left file
+Reading right file
+Done. Comparing.
+
+================================================================================
+2 differences. in test_person_name_format_with_nickname :: person.format_name(f n m l)
+--------------------------------------------------------------------------------
+
+--- *.9ea881441704a068d650fcd9dd052a606838ad8a
+
++++ *.9ea881441704a068d650fcd9dd052a606838ad8b
+
+@@ -1 +1 @@
+
+-'First Nick Middle Last'
++'First Nick Middle LastName'
+```
+
