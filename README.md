@@ -1,10 +1,10 @@
-# Onaji
+# Onaji　(同じ) 
 
 - Author: Jefferson Heard
 - Email: jheard@teamworks.com
 - Version: 0.0.1
 
-A PyTest plugin for performing regression tests between two commits or two
+Onaji is a PyTest plugin for performing regression tests between two commits or two
 branches in Git. 
 
 To use Onaji, include it in your `conftest.py` and import the logger object in 
